@@ -1,12 +1,12 @@
 Notes on how I approached and tested this solution:
 
-- I Created an ASP.NET Solution and Project called Mortgage Calculator in Visual Studio 2010 using the .NET 3.5 Framework.
+- I Created an ASP.NET Solution and Project called Mortgage Calculator using the .NET 3.5 Framework.
 
 - Wrote a static class, Calculator, that calculates the monthly mortgage payments for a fixed interest rate.
 
 - I used http://en.wikipedia.org/wiki/Mortgage_calculator#Monthly_payment_formula and http://www.mtgprofessor.com/formulas.htm as reference for the monthly payment formula.
 
-- Created a Test Project using Visual Studio 2010 Unit Test Framework and wrote unit tests against the Calculator method 'CalculateMonthlyPaymentForLoan'.
+- Created a Test Project and wrote unit tests against the Calculator method 'CalculateMonthlyPaymentForLoan'.
 
 - Developed UI code in Default.aspx.
 
@@ -18,7 +18,7 @@ Notes on how I approached and tested this solution:
 
 - Added basic logging using log4net library.
 
-- Tested UI on Chrome, Mozilla and IE 8 browsers.
+- Tested UI on Chrome and Edge browsers.
 
 - Added further unit tests that came out of the browser testing.
 
