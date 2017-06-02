@@ -1,4 +1,4 @@
-Notes on how I approached and tested this solution:
+Notes on how I approached and tested this solution (2012):
 
 - I Created an ASP.NET Solution and Project called Mortgage Calculator using the .NET 3.5 Framework.
 
